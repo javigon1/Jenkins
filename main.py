@@ -1,8 +1,7 @@
-number = 1
+ten = 1
 
-def add10():
-    number += 10
-    return number
+def add10(number):
+    return number + 10
 
-number = add10()
-assert(number == 11)
+num = add10(ten)
+assert(num == 11)
